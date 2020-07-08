@@ -12,7 +12,7 @@ function handleClick(e) {
 /* Write your implementation of greet() */
 function greet(timeString){
   let time = parseInt(timeString.split(":")[0])
-
+  // debugger
   if (time < 12) { return "Good Morning"}
   else if (time < 17) { return "Good Afternoon"}
   else {return "Good Evening"}
